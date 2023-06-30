@@ -1,0 +1,28 @@
+.custom-title {
+    font-size: 5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.icons i{
+    font-size: 2rem;
+    margin-right: 15px;
+    color: black;
+}
+
+.tech-stack{
+    margin-top: 80px;
+    
+}
+
+.tech-stack > h1{
+    font-family: Mulish,sans-serif;
+}
+
+.tech-icons{
+    font-size: 3rem;
+}
+
+.tech-icons i {
+    margin-right: 20px;
+}

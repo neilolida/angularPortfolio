@@ -1,0 +1,26 @@
+<div class="container">
+    <nav class="navbar is-transparent  py-3" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+
+            <a class="navbar-item has-text-weight-bold" href="#">
+                -Olida
+            </a>
+    
+            <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger" aria-label="menu"
+                aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu" #navMenu>
+            <div class="navbar-end has-text-weight-bold">
+                <a class="navbar-item" [routerLink]=""> Home </a>
+                <a class="navbar-item" href="#about"> About </a>
+                <a class="navbar-item" href="#portfolio"> Projects</a>
+                <a class="navbar-item" href="#contact"> Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
